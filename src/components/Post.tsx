@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Comments from "./Comments";
 
 const Post = () => {
   return (
@@ -23,7 +24,7 @@ const Post = () => {
             </p>
         </div>
         {/*INTERAction*/}
-        <div className="flex items-center justify-between text-sm mt-4">
+        <div className="flex items-center justify-between text-sm my-4">
             <div className="flex gap-8">
                 <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
                     <Image 
@@ -45,7 +46,7 @@ const Post = () => {
                         className="cursor-pointer" 
                         />
                     <span className="text-gray-300">|</span>
-                    <span className="text-gray-500">500 <span className="hidden md:inline"> Comments</span> </span>
+                    <span className="text-gray-500">500 <span className="hidden md:inline"> Comments</span></span>
                 </div>
             </div>
             <div className="">
@@ -62,8 +63,9 @@ const Post = () => {
                 </div>
             </div>
         </div>
+        <Comments/>
     </div>
-  )
-}
+  );
+};
 
 export default Post
