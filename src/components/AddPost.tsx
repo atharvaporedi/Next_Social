@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const AddPost = () => {
   return (
-    <div className='p-4 bg-white rounded-lg flex gap-4 justify-between text-sm'>
+    <div className='p-4 bg-white shadow-md rounded-lg flex gap-4 justify-between text-sm'>
       {/*AVTAR*/}
       <Image src="/git.jpg" 
       alt="" 
@@ -23,10 +23,22 @@ const AddPost = () => {
           
         </div>
         {/*POST OPTIONS*/}
-        <div className='flex item-center gap-4 mt-4 text-gray-400'>
+        <div className='flex item-center gap-4 mt-4 text-gray-400 flex-wrap'>
           <div className='flex item-center gap-2 cursor-pointer'>
           <Image src="/addImage.png" alt="" width={20} height={20}/>
           Photo
+          </div>
+          <div className='flex item-center gap-2 cursor-pointer'>
+          <Image src="/addVideo.png" alt="" width={20} height={20}/>
+          Video
+          </div>
+          <div className='flex item-center gap-2 cursor-pointer'>
+          <Image src="/Poll.png" alt="" width={20} height={20}/>
+          Poll
+          </div>
+          <div className='flex item-center gap-2 cursor-pointer'>
+          <Image src="/addEvent.png" alt="" width={20} height={20}/>
+          Event
           </div>
         </div>
        </div>
