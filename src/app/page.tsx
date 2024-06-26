@@ -3,6 +3,8 @@ import Feed from "@/components/Feed"
 import LeftMenu from "@/components/LeftMenu"
 import RightMenu from "@/components/RightMenu"
 import Stories from "@/components/Stories"
+import ProfileCard from "@/components/ProfileCard"
+import ProfilePage from "./profile/[id]/page"
 
 const Homepage = () => {
   return (
