@@ -28,8 +28,8 @@ const ProfilePage = () => {
                   className="w-32 h-32 rounded-full left-0 right-0 m-auto absolute -bottom-16 ring-4 ring-white object-cover"
                 />
               </div>
-              <h1 className="mt-20 mb-4 text-2xl text-medium">Wau Hek</h1>
-              <div className="flex items-center justify-center gpa-12 mb-4">
+              <h1 className="mt-20 mb-4 text-2xl font-medium">Wau Hek</h1>
+              <div className="flex items-center justify-center gap-12 mb-4">
                 <div className="flex flex-col items-center">
                   <span className="font-medium">124</span>
                   <span className="text-sm">Posts</span>
