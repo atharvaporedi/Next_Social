@@ -1,10 +1,10 @@
 import AddPost from "@/components/AddPost"
-import Feed from "@/components/Feed"
-import LeftMenu from "@/components/LeftMenu"
-import RightMenu from "@/components/RightMenu"
+import Feed from "@/components/feed/Feed"
+import LeftMenu from "@/components/leftMenu/LeftMenu"
+import RightMenu from "@/components/rightMenu/RightMenu"
 import Stories from "@/components/Stories"
-import ProfileCard from "@/components/ProfileCard"
-import ProfilePage from "./profile/[id]/page"
+import ProfileCard from "@/components/leftMenu/ProfileCard"
+import ProfilePage from "./profile/[username]/page"
 
 const Homepage = () => {
   return (

@@ -1,4 +1,4 @@
-import Ad from "./Ad";
+import Ad from "../Ad";
 import Birthday from "./Birthday";
 import FriendReqest from "./FriendReqest";
 import UserMediaCard from "./UserMediaCard";
