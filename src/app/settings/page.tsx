@@ -1,7 +1,7 @@
-const setting = () => {
-    return (
-      <div className=''>settings page</div>
-    )
-  }
-  
-  export default setting
+const SettingPage = () => {
+  return (
+    <div className=''>SettingPage</div>
+  )
+}
+
+export default SettingPage
